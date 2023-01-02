@@ -2,8 +2,10 @@
 .custom-nav {
     width: 100%;
     z-index: 10;
-    background-color: pink !important;
+    background-color: rgba(221,221,221,0.9) !important;
     font-size: 1.1rem;
+    position: fixed;
+    border-bottom: 1px solid black;
   }
 
 
@@ -12,17 +14,18 @@
     margin-right: 0 !important; 
   }
 
-  .jumbotron{
-    background-color: rgba(221,221,221,255) !important;
-  }
+.jumbotron{
+  background-color: rgba(221,221,221,255) !important;
+}
 
-  .custContainer{
-    display:flex;
-  }
-  .avatarImage{
-    max-width: 150px;
-    margin-left: auto;
-  }
+.custContainer{
+  display:flex;
+}
+
+.avatarImage{
+  max-width: 150px;
+  margin-left: auto;
+}
 
 .row{
   border-bottom: 2px solid grey;
@@ -31,14 +34,9 @@
   align-items: flex-start;
 }
 
-.customCard{
-  background-size: cover;
-  background-position: center;
-  align-items: center;
-
-}
-
 .custImg{
-  height: 50vh;
+  width: 100%;
+  max-height: 45vh;
   object-fit: cover;
+  position: center;
 }
