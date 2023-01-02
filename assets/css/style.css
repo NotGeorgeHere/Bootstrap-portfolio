@@ -12,12 +12,15 @@
     margin-right: 0 !important; 
   }
 
+  .jumbotron{
+    background-color: rgba(221,221,221,255) !important;
+  }
+
   .custContainer{
     display:flex;
   }
   .avatarImage{
     max-width: 150px;
-    /* height: auto; */
     margin-left: auto;
   }
 
@@ -25,4 +28,31 @@
   border-bottom: 2px solid grey;
   padding: 10px;
   margin-top: 10px;
+  margin-bottom: -10px;
+  height: 50vh;
+}
+
+.customOverlay{
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+
+.projectOneImage{
+  background-image: url("../images/1920x1080.png");
+}
+
+.projectTwoImage{
+  background-image: url("../images/1280x720.png");
+}
+
+.projectThreeImage{
+  background-image: url("../images/1920x1080.png");
+}
+
+.projectFourImage{
+  background-image: url("../images/1280x720.png");
 }
