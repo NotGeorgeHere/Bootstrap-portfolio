@@ -6,13 +6,13 @@ My main motivation behind this project was to work on my understanding of Bootst
 
 ## Installation
 
-Github repository: https://github.com/NotGeorgeHere/challenge-3-bootstrap-portfolio
+Github repository: https://github.com/NotGeorgeHere/Bootstrap-portfolio
 
 Live deployment page:
 
 ## Usage
 
-![alt text](../challenge-3-bootstrap-portfolio/assets/images/screenshotWebsite.png)
+![alt text](assets/images/screenshotWebsite.png)
 
 ## License
 
