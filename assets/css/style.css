@@ -14,6 +14,10 @@
     margin-right: 0 !important;
   }
 
+.dropdown-menu {
+  background-color: rgba(221,211,211,0.9) !important;
+}
+
 .jumbotron{
   background-color: rgba(221,221,221,255) !important;
 }
@@ -35,6 +39,10 @@
   align-items: flex-start;
 }
 
+.btn:hover{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
 .custImg{
   width: 100%;
   max-height: 45vh;
@@ -47,6 +55,15 @@
   margin-bottom: 10px;
 }
 
+.customLink{
+  text-decoration: underline;
+  color: black;
+}
+.customLink:hover{
+  color: blue;
+}
+
+/* Footer CSS */
 .footer{
   background-color: rgba(221,221,221,1);
   padding-top: 10px;
@@ -61,4 +78,8 @@
 .footer img{
   width: 50px;
   height: auto;
+}
+
+.footer img:hover{
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 }

@@ -22,32 +22,34 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Information</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Work</a>
+                  <a class="nav-link" href="#information">Information</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    About Me/Skills
+                    Work
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">About Me</a>
-                    <a class="dropdown-item" href="#">Skills</a>
+                    <a class="dropdown-item" href="#projectOne">Project One</a>
+                    <a class="dropdown-item" href="#projectTwo">Project Two</a>
+                    <a class="dropdown-item" href="#projectThree">Project Three</a>
+                    <a class="dropdown-item" href="#projectFour">Project Four</a>
                   </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutMe">About Me/ Skills</a>
                 </li>
               </ul>
             </div>
           </nav>
 
           <!-- Jumbotron -->
-          <div class="jumbotron jumbotron-fluid">
+          <div class="jumbotron jumbotron-fluid" id="information">
             <div class="container">
               <div class="custContainer">
                 <h1 class="display-4">George Ryder</h1>
                 <img class="avatarImage" src="assets/images/img_avatar.png">
               </div>
-              <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+              <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu hendrerit urna. Donec commodo luctus vulputate.</p>
             </div>
           </div>
 
@@ -58,7 +60,7 @@
             <!-- Row 1 -->
 
             <!-- Row 1 Image -->
-            <div class="row customRow">
+            <div class="row customRow" id="projectOne">
               <div class="cardContainer col-lg-8 col-md-8 col-sm-12">
                 <div class="card customCard h-100">
                   <img src="../challenge-3-bootstrap-portfolio/assets/images/1920x1080.png" class="card-img .img-fluid custImg">
@@ -86,7 +88,7 @@
             <!-- Row 2 -->
 
             <!-- Row 2 Image -->
-            <div class="row customRow">
+            <div class="row customRow" id="projectTwo">
               <div class="cardContainer col-lg-8 col-md-8 col-sm-12">
                 <div class="card customCard h-100">
                   <img src="../challenge-3-bootstrap-portfolio/assets/images/1920x1080.png" class="img-fluid card-img custImg">
@@ -117,7 +119,7 @@
             <!-- Row 3 -->
 
             <!-- Row 3 Image -->
-            <div class="row customRow">
+            <div class="row customRow" id="projectThree">
               <div class="cardContainer col-lg-8 col-md-8 col-sm-12">
                 <div class="card customCard h-100">
                   <img src="../challenge-3-bootstrap-portfolio/assets/images/1280x720.png" class="img-fluid card-img custImg">
@@ -148,7 +150,7 @@
             <!-- Row 4 -->
 
             <!-- Row 4 Image -->
-            <div class="row customRow">
+            <div class="row customRow" id="projectFour">
               <div class="cardContainer col-lg-8 col-md-8 col-sm-12">
                 <div class="card customCard h-100">
                   <img src="../challenge-3-bootstrap-portfolio/assets/images/1280x720.png" class="img-fluid card-img custImg">
@@ -179,7 +181,7 @@
 
           <!-- About me and Skills -->
 
-          <div class="container-fluid">
+          <div class="container-fluid" id="aboutMe">
             <h2 class="sectionHeading text-center">About Me and Skills</h2>
 
 
@@ -199,8 +201,8 @@
                       Proin mollis, nunc vel pellentesque dictum, mauris lectus vehicula lacus, sit amet viverra quam sapien elementum enim. </p>
                     
                       <h6 class="card-subtitle mb-2 text-center">Contact Me:</h6>
-                      <p class="card-text text-center"><a href="#">00000-000-000</a></p>
-                      <p class="card-text text-center"><a href = "ryder.george20@gmail.com">ryder.george20@gmail.com</a></p>
+                      <p class="card-text text-center"><a href="#" class="customLink">00000-000-000</a></p>
+                      <p class="card-text text-center"><a href = "mailto:ryder.george20@gmail.com" target="_blank" class="customLink">ryder.george20@gmail.com</a></p>
                   </div>
                 </div>
               </div>
