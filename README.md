@@ -12,7 +12,7 @@ Live deployment page:
 
 ## Usage
 
-![alt text](../challenge-3-bootstrap-portfolio/assets/images/screenshotWebsite%20.png)
+![alt text](../challenge-3-bootstrap-portfolio/assets/images/screenshotWebsite.png)
 
 ## License
 
