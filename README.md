@@ -8,7 +8,7 @@ My main motivation behind this project was to work on my understanding of Bootst
 
 Github repository: https://github.com/NotGeorgeHere/Bootstrap-portfolio
 
-Live deployment page:
+Live deployment page: https://notgeorgehere.github.io/Bootstrap-portfolio/
 
 ## Usage
 
